@@ -19,8 +19,12 @@ public class ThreeNOneTest {
     @Test
     public void testFirst() throws Exception {
 
+        ThreeNOne t = new ThreeNOne();
 
-        System.out.println("first!!!!");
+        int result = t.start(1, 10);
+
+        assertEquals(result, 20);
+
     }
 
 }
